@@ -1,0 +1,14 @@
+# Secrets: never commit API keys
+.env
+*.env
+api-key
+*.key
+
+# Script output
+*.csv
+*-output.json
+
+# Editor and OS clutter
+.vscode/
+*.swp
+.DS_Store
